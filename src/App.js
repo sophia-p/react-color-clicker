@@ -5,15 +5,39 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
+      <main className="Main">
+      <ul className="App">
+        <li className="Cell">
           
           
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+        </li>
+        <li className="Cell">
+        </li>
+
+        <li className="Cell">
+        </li>
+
+        <li className="Cell">
+        </li>
+
+        <li className="Cell">
+        </li>
+
+        <li className="Cell">
+        </li>
+
+        <li className="Cell">
+        </li>
+
+        <li className="Cell">
+        </li>
+
+        <li className="Cell">
+        </li>
+
+
+      </ul>
+      </main>
     );
   }
 }
