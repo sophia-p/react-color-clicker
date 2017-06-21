@@ -6,10 +6,24 @@ class App extends Component {
 
   render() {
     return (
- 	<div className="grid">
-    <Cell />
-    <Cell />
-    <Cell />
+    <div>
+	 	<div className="grid">
+		    <Cell />
+		    <Cell />
+		    <Cell />
+	    </div>
+
+	    <div className="grid">
+		    <Cell />
+		    <Cell />
+		    <Cell />
+	    </div>
+
+	    <div className="grid">
+		    <Cell />
+		    <Cell />
+		    <Cell />
+	    </div>
     </div>
     );
   }
