@@ -1,43 +1,16 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Cell from './Cell.js';
 
 class App extends Component {
+
   render() {
     return (
-      <main className="Main">
-      <ul className="App">
-        <li className="Cell">
-          
-          
-        </li>
-        <li className="Cell">
-        </li>
-
-        <li className="Cell">
-        </li>
-
-        <li className="Cell">
-        </li>
-
-        <li className="Cell">
-        </li>
-
-        <li className="Cell">
-        </li>
-
-        <li className="Cell">
-        </li>
-
-        <li className="Cell">
-        </li>
-
-        <li className="Cell">
-        </li>
-
-
-      </ul>
-      </main>
+ 	<div className="grid">
+    <Cell />
+    <Cell />
+    <Cell />
+    </div>
     );
   }
 }

@@ -1,31 +1,4 @@
-.Main {
-    margin: 0 auto;
-    overflow: auto;
-    width: 100%;
-
-}
-
-.App {
-  margin: 0 auto;
-  padding: 0;
-  overflow: auto;
-  width: 100%;
-}
-
-
-
-.Cell {
-  background-color: aquamarine;
-  width: 150;
-
-  height: 150;
-}
-
-
-
-
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.grid {
+  display: flex;
+  justify-content: center;
 }
