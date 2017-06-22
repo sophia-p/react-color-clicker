@@ -3,28 +3,19 @@ import './App.css';
 import Cell from './Cell.js';
 
 class App extends Component {
+	
+	render() {
+	
+		return (
 
-  render() {
-    return (
-    <div>
-	 	<div className="grid">
-		    <Cell />
-		    <Cell />
-		    <Cell />
-	    </div>
+	    <div>
+		 	<div className="grid">
+			    {this.renderCell()}
+			    {this.renderCell()}
+			    {this.renderCell()}
+		    </div>
 
-	    <div className="grid">
-		    <Cell />
-		    <Cell />
-		    <Cell />
 	    </div>
-
-	    <div className="grid">
-		    <Cell />
-		    <Cell />
-		    <Cell />
-	    </div>
-    </div>
     );
   }
 }
