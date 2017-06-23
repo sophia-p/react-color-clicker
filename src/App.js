@@ -9,10 +9,23 @@ class App extends Component {
 		return (
 
 	    <div>
+	    	<h3>Undrab the squares by clicking</h3>
 		 	<div className="grid">
-			    {this.renderCell()}
-			    {this.renderCell()}
-			    {this.renderCell()}
+			    <Cell/>
+			    <Cell/>
+			    <Cell/>
+		    </div>
+
+		    <div className="grid">
+			    <Cell/>
+			    <Cell/>
+			    <Cell/>
+		    </div>
+
+		    <div className="grid">
+			    <Cell/>
+			    <Cell/>
+			    <Cell/>
 		    </div>
 
 	    </div>

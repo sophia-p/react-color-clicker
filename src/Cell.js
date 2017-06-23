@@ -3,19 +3,20 @@ import React from 'react';
 import './Cell.css'
 
 class Cell extends React.Component {
-	constructor() {
-		super();
-		this._handleClick = this._handleClick(this);
+	getComponent(event){ 
+		var r = Math.floor(Math.random() * (255+ 1)).toString();
+		var g = Math.floor(Math.random() * (255+ 1)).toString();
+		var b = Math.floor(Math.random() * (255+ 1)).toString();
+		console.log('clicked');
+		event.currentTarget.style.backgroundColor = 'rgb('+r+','+g + ',' + b + ')';
 	}
-	render() {
-		return (
-			<button className="cell" onClick={this._handleClick}>		
-			</button>
-		);
+
+	render(){
+		return(
+			<button className="cell" onClick={this.getComponent.bind(this)}></button>
+			)
 	}
-	_handleClick(){
-		console.log(this)
-	}
+	
 }
 
 export default Cell;
