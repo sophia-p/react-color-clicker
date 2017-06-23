@@ -3,4 +3,4 @@ Undrab the squares by clicking to randomly colorize them!
 
 
 If you have React:
-run 'npm serve'
+run 'npm start'
